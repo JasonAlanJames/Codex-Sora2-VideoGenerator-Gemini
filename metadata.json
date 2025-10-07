@@ -1,0 +1,5 @@
+{
+  "name": "AI Social Media Video Generator",
+  "description": "A modern web app to generate social media videos using AI. This application allows users to sign in via social media accounts, enter a text prompt, and generate a short video powered by Google's Gemini API.",
+  "requestFramePermissions": []
+}

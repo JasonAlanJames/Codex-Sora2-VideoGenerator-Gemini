@@ -1,0 +1,9 @@
+{
+  "name": "ai-social-media-video-generator-react",
+  "version": "1.0.0",
+  "description": "A modern web app to generate social media videos using AI, built with React and TypeScript.",
+  "private": true,
+  "dependencies": {
+    "@google/genai": "^0.1.0"
+  }
+}

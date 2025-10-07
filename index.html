@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Social Media Video Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand': {
+                'primary': '#6366F1',
+                'secondary': '#818CF8',
+              },
+              'dark': {
+                '900': '#111827',
+                '800': '#1F2937',
+                '700': '#374151',
+                '600': '#4B5563',
+              },
+            },
+            animation: {
+                'fade-in-up': 'fade-in-up 0.5s ease-out forwards',
+            },
+            keyframes: {
+                'fade-in-up': {
+                    '0%': { opacity: '0', transform: 'translateY(10px)' },
+                    '100%': { opacity: '1', transform: 'translateY(0)' },
+                },
+            }
+          },
+        },
+      }
+    </script>
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+    "react-router-dom": "https://esm.sh/react-router-dom@6.23.0",
+    "lucide-react": "https://esm.sh/lucide-react@0.378.0",
+    "@google/genai": "https://esm.sh/@google/genai@0.1.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+</head>
+<body class="bg-dark-900 text-gray-200 font-sans">
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+</body>
+</html>
